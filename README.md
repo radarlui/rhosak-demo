@@ -61,7 +61,7 @@ After you add these permissions for the service account, click Save to finish.
 ### Create a Kafka topic in RHOSAK
 When you have a Kafka instance available, you can create Kafka topics to start producing and consuming messages in your services.
 
-1/ Click Create topic and follow the guided steps to define the topic details. Click Next to complete each step and click Finish to complete the setup.
+1. Click Create topic and follow the guided steps to define the topic details. Click Next to complete each step and click Finish to complete the setup.
 
 Topic name: Enter a unique topic name, such as my-first-kafka-topic.
 
@@ -96,7 +96,7 @@ Press Ctrl-C to exit
 
 ### Consume message using Kafka CLI
 ```
-.bin/kafka-console-consumer.sh --bootstrap-server rlui-kafka-c-vovcoabgjhdqealcsa.bf2.kafka.rhcloud.com:443  --topic topic1 --consumer.config kafka.properties --partition 0 --offset 'earliest'
+.bin/kafka-console-consumer.sh --bootstrap-server rlui-kafka-c-vovcoabgjhdqealcsa.bf2.kafka.rhcloud.com:443  --topic my-first-kafka-topic --consumer.config kafka.properties --partition 0 --offset 'earliest'
 ```
 Press Ctrl-C to exit
 
