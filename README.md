@@ -94,7 +94,7 @@ bin/kafka-console-producer.sh --bootstrap-server rlui-kafka-c-vovcoabgjhdqealcsa
 ```
 Press Ctrl-C to exit
 
-### Consume message using Kafka CLI
+### Consume messages using Kafka CLI
 ```
 .bin/kafka-console-consumer.sh --bootstrap-server rlui-kafka-c-vovcoabgjhdqealcsa.bf2.kafka.rhcloud.com:443  --topic my-first-kafka-topic --consumer.config kafka.properties --partition 0 --offset 'earliest'
 ```
